@@ -1,0 +1,19 @@
+.full-width {
+  width: 100%;
+}
+
+.muted {
+  opacity: 0.5;
+}
+
+.relative {
+  position: relative;
+}
+
+.center-x-y {
+  bottom: 50%;
+  position: fixed;
+  right: 50%;
+  transform: translate(50%, 50%);
+  width: 100%;
+}

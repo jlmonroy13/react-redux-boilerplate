@@ -1,0 +1,72 @@
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+  'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif !default;
+
+$font-family-base: $font-family-sans-serif;
+$font-family-icons: 'icon-family';
+$font-size-base: 14px;
+$font-weight-base: 400;
+$line-height-base: 1.5;
+$arabic-scale-factor: 4;
+
+$font-size-larger: 30px;
+$font-size-large: 20px;
+$font-size-small: 15px;
+$font-size-smaller: 10px;
+$font-size-medium: 12px;
+
+$font-size-h1: 32px;
+$font-size-h2: 24px;
+$font-size-h3: 22px;
+$font-size-h4: 20px;
+$font-size-h5: 18px;
+$font-size-h6: 16px;
+
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 100;
+$headings-line-height: 1;
+$headings-color: inherit;
+
+$line-height-computed: floor($font-size-base * $line-height-base);
+
+$base-spacing-unit: $line-height-computed;
+$half-spacing-unit: $line-height-computed / 2;
+$quarter-spacing-unit: $line-height-computed / 4;
+
+$line-height-large: 1.3;
+$line-height-small: 1.6;
+
+$border-radius-small: 4px;
+$border-radius-base: 5px;
+$border-radius-large: 6px;
+$border-radius-larger: 10px;
+
+// Custom elements
+$header-height: 80px;
+$sub-header-height: 40px;
+
+// Buttons
+$btn-font-size: 14px;
+$btn-border-radius: 4px;
+$btn-font-weight: 400;
+$btn-font-family: $font-family-base;
+$btn-border-width: 1px;
+
+// Media Queries
+$screen-extra-small: 321px !default;
+$screen-small: 620px !default;
+$screen-medium: 767px !default;
+$screen-large: 1024px !default;
+$screen-extra-large: 1280px !default;
+
+$screen: 'only screen';
+$extra-small: 'only screen and (min-width: #{$screen-extra-small})';
+$small: 'only screen and (min-width: #{$screen-small})';
+$medium: 'only screen and (min-width: #{$screen-medium})';
+$large-max: 'only screen and (max-width: #{$screen-large - 1})';
+$small-max: 'only screen and (max-width: #{$screen-small - 1})';
+$medium-max: 'only screen and (max-width: #{$screen-medium - 1})';
+$large: 'only screen and (min-width: #{$screen-large})';
+$extra-large: 'only screen and (min-width: #{$screen-extra-large})';
+$landscape: 'only screen and (orientation: landscape)';
+$portrait: 'only screen and (orientation: portrait)';

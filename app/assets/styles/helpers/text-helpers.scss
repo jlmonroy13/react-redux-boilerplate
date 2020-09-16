@@ -1,0 +1,93 @@
+// Text size
+.base-text {
+  font-size: $font-size-base;
+}
+
+.text-larger {
+  font-size: $font-size-larger;
+}
+
+.text-large {
+  font-size: $font-size-large;
+}
+
+.text-small {
+  font-size: $font-size-small;
+}
+
+.text-smaller {
+  font-size: $font-size-smaller;
+}
+
+// Text alignment
+.text-left {
+  text-align: left;
+  .ar & {
+    text-align: right;
+  }
+}
+
+.text-right {
+  text-align: right;
+  .ar & {
+    text-align: left;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.line-height-large {
+  line-height: $line-height-small;
+}
+
+.line-height-small {
+  line-height: $line-height-large;
+}
+
+// Font weights
+.weight-light {
+  font-weight: 300;
+}
+
+.weight-normal {
+  font-weight: 400;
+}
+
+.weight-medium {
+  font-weight: 500;
+}
+
+.weight-semibold {
+  font-weight: 600;
+}
+
+.weight-bold {
+  font-weight: 700;
+}
+
+// Font styles
+.style-normal {
+  font-style: normal;
+}
+
+.border-none {
+  border: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.underline {
+  text-decoration: underline;
+}
